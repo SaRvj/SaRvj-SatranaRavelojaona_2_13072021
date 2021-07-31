@@ -23,6 +23,15 @@ html, body{
     text-decoration: none;
 }
 
+.textegras{ /*police gras*/
+    font-weight: bold; 
+}
+
+.bordureNone{
+    border: none;
+}
+
+/*couleur de la page*/
 .colorbleu{
     color: #0065FC;
 }
@@ -33,6 +42,19 @@ html, body{
 
 .colorgris{
     color: #F2F2F2;
+}
+
+/*couleur background*/
+.backbleu{
+    background-color: #0065FC;
+}
+
+.backbleuclair{
+    background-color: #DEEBFF;
+}
+
+.backgris{
+    background-color: #F2F2F2;
 }
 
 /*espacer les élements sans qu'il n'y ait une marge entre eux*/
@@ -49,10 +71,6 @@ html, body{
 }
 
 /*couleur de la barre de navigation*/
-.colorLien13{
-    color: #0065FC;
-}
-
 .colorLien2{
     color: black;
 }
@@ -86,4 +104,37 @@ html, body{
 .margeLogo{
     margin-bottom: 10px;
 
+}
+
+/*header*/
+.bordureSearch{
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #F2F2F2;
+}
+
+.iconSize{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+
+.recherche{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.paddingSearch{
+    padding-left: 20px; /*décaler le texte*/
+}
+
+.boutonSearch{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
 }
