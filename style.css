@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+/*police personnalisée*/
+html, body{
+    font-family: 'Raleway', sans-serif ;
+    src: url(https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap);
+}
+
+/*classe général qui permet de centrer tous les éléments au milieu*/
+.flexCentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.decorationNone{
+    text-decoration: none;
+}
+
+.colorbleu{
+    color: #0065FC;
+}
+
+.colorbleuclair{
+    color: #DEEBFF;
+}
+
+.colorgris{
+    color: #F2F2F2;
+}
+
+/*espacer les élements sans qu'il n'y ait une marge entre eux*/
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*liens de navigation*/
+/*largeur de la div navigation*/
+.sizeLiens{
+    width: 45%;
+}
+
+/*couleur de la barre de navigation*/
+.colorLien13{
+    color: #0065FC;
+}
+
+.colorLien2{
+    color: black;
+}
+
+/*metre trait au dessus de hébergement*/
+.sizeLien{
+    width: 140px;
+    height: 99px;
+}
+
+/*trait au dessus de "hébergements"*/
+.bordureNav{
+    border-top: 1px solid;
+    color: #0065FC;
+}
+
+.bordureNav23{
+    border-top: 1px solid transparent;
+}
+
+/*rajouter une hauteur au lien de navigation*/
+.sizeNav{
+    height: 100px;
+}
+
+.logo{
+    width: 120px;
+    height: 50px;
+}
+
+.margeLogo{
+    margin-bottom: 10px;
+
+}
