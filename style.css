@@ -31,6 +31,24 @@ html, body{
     border: none;
 }
 
+.flexColumnCentre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexClumnAround{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flexColumnBetween{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /*couleur de la page*/
 .colorbleu{
     color: #0065FC;
@@ -198,4 +216,98 @@ html, body{
     color: #F2F2F2;
     border-radius: 25px;
     margin-right: 5px;
+}
+
+/*hébergements*/
+.sizehebergement{
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.sizepopulaire{
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.imghebergement1{
+    background-image: url("./img/img_hebergement_aubergecannebiere.jpg");
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imghebergement2{
+    background-image: url("./img/img_hebergement_hotelduport.jpg");
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imghebergement3{
+    background-image: url("./img/img_hebergement_hotellesmouettes.jpg");
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imghebergement4{
+    background-image: url("./img/img_hebergement_hoteldelamer.jpg");
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imghebergement5{
+    background-image: url("./img/img_hebergement_aubergepanier.jpg");
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imghebergement6{
+    background-image: url("./img/img_hebergement_hotelchezamina.jpg");
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.blochebergements{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cubehebergement{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.block1{
+    margin-bottom: 10px;
+}
+
+.block1{
+    margin-top: 10px;
+}
+
+.cubedetailhebergement{
+    width: 90%;
 }
