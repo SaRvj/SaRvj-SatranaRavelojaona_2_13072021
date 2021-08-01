@@ -138,3 +138,50 @@ html, body{
     cursor: pointer;
     border-radius: 0 10px 10px 0;
 }
+
+/*filtres*/
+.filtre{
+    display: flex;
+    align-items: center;
+}
+
+.margeFiltre{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.margeentrettrefiltre{
+    margin-right: 20px;
+}
+
+.filtreTexteIcon{
+    border: 2px solid #F2F2F2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filtreTexteIcon:hover > .filtreText{
+    color: #0065FC; /*changement de couleur quand souris passe sur le filtre*/
+}
+
+.filtreTexteIcon:hover > .filtreIcons{
+    color: white;
+    background-color: #0065FC;
+}
+
+.filtreText{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+.filtreIcons{
+    border-radius: 25px;
+    margin-left: -2px;
+    width: 52px;
+    height: 52px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
