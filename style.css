@@ -6,6 +6,32 @@ html, body{
     src: url(https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap);
 }
 
+html{
+    width: auto;
+    margin: auto;
+    max-width: 1440px;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.flex {
+    display: flex;
+}
+
 /*classe général qui permet de centrer tous les éléments au milieu*/
 .flexCentre{
     display: flex;
@@ -23,6 +49,16 @@ html, body{
     text-decoration: none;
 }
 
+ul{
+    align-items: flex-start;
+    padding: 0;
+}
+
+li
+{
+    list-style-type: none;
+    display: flex;
+}
 .textegras{ /*police gras*/
     font-weight: bold; 
 }
@@ -101,12 +137,17 @@ html, body{
 
 /*trait au dessus de "hébergements"*/
 .bordureNav{
-    border-top: 1px solid;
-    color: #0065FC;
+    border-top: 1px solid transparent;
 }
 
-.bordureNav23{
-    border-top: 1px solid transparent;
+.bordureNav:hover{
+    border-top: 1px solid #0065FC;
+    cursor: pointer;
+}
+
+.bordureNav:hover > a {
+    color: #0065FC;
+    cursor: pointer;
 }
 
 /*rajouter une hauteur au lien de navigation*/
@@ -157,6 +198,11 @@ html, body{
     border-radius: 0 10px 10px 0;
 }
 
+.boutonSearch:hover{
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
 /*filtres*/
 .filtre{
     display: flex;
@@ -194,6 +240,12 @@ html, body{
     padding-right: 20px;
     border-radius: 0 25px 25px 0;
 }
+
+/*à voir*/.filtreText:hover{
+    color: white;
+    background-color: #0065FC;
+}/*fin à voir*/
+
 .filtreIcons{
     border-radius: 25px;
     margin-left: -2px;
@@ -300,6 +352,11 @@ html, body{
     border-radius: 20px;
 }
 
+.cubehebergement:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
 .bloc1{
     margin-bottom: 20px;
 }
@@ -350,6 +407,11 @@ html, body{
     height: auto;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
+}
+
+.cubepopulaire:hover{
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 .blocpopulaire12{
@@ -441,6 +503,15 @@ html, body{
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
+.cubeactivite:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.cubeactivite2356:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
 
 .hauteurtitre{
     height: 70px;
@@ -452,4 +523,52 @@ html, body{
     align-items: center;
     padding-left: 5%;
     width: 95%;
+}
+
+/* Footer */
+
+footer {
+    padding: 40px 50px 50px;
+    background-color: #f2f2f2;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer li {
+    margin-bottom: 15px;
+}
+
+footer a:hover {
+    font-weight: 600;
+    color: #0065FC;
+}
+
+
+/* Tablet version */
+
+@media only screen and (max-width: 1024px) {
+    /* Footer - Tablet */
+    footer div {
+        padding: 10px;
+    }
+}
+
+
+/* Mobile version */
+
+@media only screen and (max-width: 600px) {
+    /* General */
+    #main {
+        margin: 0;
+    }
+    /* Footer - Mobile */
+    footer {
+        flex-direction: column;
+        padding: 45px 30px;
+    }
+    footer div {
+        padding: 0;
+    }
 }
