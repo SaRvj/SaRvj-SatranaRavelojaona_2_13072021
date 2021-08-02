@@ -121,7 +121,11 @@ li
 /*liens de navigation*/
 /*largeur de la div navigation*/
 .sizeLiens{
-    width: 45%;
+    width: 100%;
+}
+
+.sizeLiens12{
+    margin-left: 60%;
 }
 
 /*couleur de la barre de navigation*/
@@ -152,7 +156,7 @@ li
 
 /*rajouter une hauteur au lien de navigation*/
 .sizeNav{
-    height: 100px;
+    height: auto;
 }
 
 .logo{
@@ -166,6 +170,10 @@ li
 }
 
 /*header*/
+.desktopnone{
+    display: none;
+}
+
 .bordureSearch{
     width: 400px;
     border-radius: 10px;
@@ -350,6 +358,7 @@ li
     background-color: white;
     padding: 1%;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
 .cubehebergement:hover{
@@ -546,6 +555,216 @@ footer a:hover {
 }
 
 
+/*version responsive*/
+@media screen and (max-width: 1295px){
+    .sizeLiens12{
+        margin-left: 35%;
+    }
+
+    .cubedetailhebergement{
+        min-height: 150px;
+    }
+
+    .sizehebergement{
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .sizepopulaire{
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .tablettesizetitrepop{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:990px){
+    .mobilefiltrewrap{ /*éléments des filtres qui s'adaptent à la taille de l'écran*/
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filtreTexteIcon{
+        margin-bottom: 20px;
+    }
+
+    #hebergement{
+        flex-direction: column-reverse; /*mettre les plus populaire en haut de hébergements à marseille (intervertir les 2 blocs)*/
+        width: 100%;
+    }
+
+    .blocpopulaire{
+        flex: none;
+        width: 90%;
+        margin-left: 0;
+        padding: 5%;
+    }
+
+    .blochebergements{
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width:770px){
+    .sizeLiens{
+        width: 90%;
+    }
+
+    .sizeLiens12{
+        margin-left: 20%;
+    }
+
+    .blochebergements{
+        height: auto;
+    }
+
+    .bloc1{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .bloc2{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .cubehebergement{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .cubedetailhebergement{
+        min-height: auto;
+    }
+
+    .blocactivite{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cubeactivite{
+        width: 100%;
+        margin-bottom: 50px; /*pour séparer les blocs*/
+    }
+
+    .blocactivite2356{
+        width: 100%; 
+        height: auto;
+    }
+
+    .cubeactivite2356{
+        margin-bottom: 50px; /*pour avoir les mêmes marges*/
+    }
+
+    .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .sizeLiens12{
+        order: 1; /*faire passer hébergements et activités après s'inscrire sur la barre de navigation*/
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sizeLien{
+        flex: row;
+    }
+
+    .sizeLienmobile{
+        width: 50%;
+        border-top: none;
+        border-bottom: 5px solid #F2F2F2;
+    }
+
+    .sizeLiens{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .sizeLienmobile:hover{
+        border-top: 0;
+        border-bottom: 5px solid #0065FC;
+    }
+
+    .mobiletitreh1{
+        font-size: x-large;
+    }
+
+    .recherche{
+        width: 200px;
+        border-top: 2px 0 2px 2px solid #F2F2F2;
+        border-bottom: 2px 0 2px 2px solid #F2F2F2;
+    }
+
+    .bordureSearch{
+        width: auto;
+        border: none;
+    }
+
+    .boutonSearch{
+        width: 50px;
+        border-radius: 15px;
+    }
+    
+    /*pour avoir l'effet loupe en mobile et rechercher en desktop*/
+    .desktopnone{
+        display: block;
+    }
+
+    .mobilenone{
+        display: none;
+    }
+
+    html, body{
+        padding: 0;
+        margin: 0;
+    }
+
+    .margeFiltre{
+        padding-left: 5%;
+    }
+
+    .mobileeconomique{
+        margin-right: 5px;
+    }
+
+    .mobilefamilial{
+    margin-right: 0;
+    }
+
+    .filtreText{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .blocpopulaire{
+        border-radius: 0;
+    }
+
+    .blochebergements{
+        background-color: white;
+    }
+
+    .mobiletitreprgrph{
+        padding-left: 5%;
+    }
+
+    .blocactivite{
+        padding: 5%;
+        width:90%;
+    }
+}
+
 /* Tablet version */
 
 @media only screen and (max-width: 1024px) {
@@ -554,7 +773,6 @@ footer a:hover {
         padding: 10px;
     }
 }
-
 
 /* Mobile version */
 
