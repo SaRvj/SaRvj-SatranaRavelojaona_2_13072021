@@ -37,7 +37,7 @@ html, body{
     justify-content: center;
 }
 
-.flexClumnAround{
+.flexColumnAround{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -294,20 +294,162 @@ html, body{
 
 .cubehebergement{
     width: 30%;
-    height: auto;
+    height: 200px;
     background-color: white;
     padding: 1%;
     border-radius: 20px;
 }
 
-.block1{
-    margin-bottom: 10px;
+.bloc1{
+    margin-bottom: 20px;
 }
 
-.block1{
-    margin-top: 10px;
+.bloc2{
+    margin-top: 20px;
 }
 
 .cubedetailhebergement{
     width: 90%;
+}
+
+/*les plus populaires*/
+.blocpopulaire{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.imgpopulaire1{
+    background-image: url("./img/img_hebergement_hotellesoleildumat.jpg");
+    width: 35%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0 0 15px;
+}
+
+.imgpopulaire2{
+    background-image: url("./img/img_hebergement_aucoeurdeleau.jpg");
+    width: 35%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0 0 15px;
+}
+
+.imgpopulaire3{
+    background-image: url("./img/img_hebergement_hoteltoutbleuetblanc.jpg");
+    width: 35%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0 0 15px;
+}
+
+.cubepopulaire{
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+
+.blocpopulaire12{
+    margin-bottom: 22px;
+}
+
+.cubedetailpopulaire{
+    width: 60%;
+    padding-left: 5%;
+}
+
+/*activités marseille*/
+.activite{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.blocactivite{
+    width: 100%;
+    height: 600px;
+}
+
+.blocactivite2356{
+    width: 23%;
+    height: 600px;
+}
+
+.imgactivite1{
+    background-image: url("./img/img_activite_vieuxport.jpg");
+    width: 100%;
+    height: 530px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgactivite2{
+    background-image: url("./img/img_activite_fortdepomegues.jpg");
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgactivite3{
+    background-image: url("./img/img_activite_iledufrioul.jpg");
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgactivite4{
+    background-image: url("./img/img_activite_parcnat.jpg");
+    width: 100%;
+    height: 530px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgactivite5{
+    background-image: url("./img/img_activite_notredame.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgactivite6{
+    background-image: url("./img/img_activite_parclongchamp.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.cubeactivite{  /*réglages du bloc activité*/
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+.cubeactivite2356{/*réglages du bloc activité*/
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+.hauteurtitre{
+    height: 70px;
+}
+
+.titreactivite{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
 }
