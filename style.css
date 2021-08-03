@@ -59,8 +59,13 @@ li
     list-style-type: none;
     display: flex;
 }
+
 .textegras{ /*police gras*/
     font-weight: bold; 
+}
+
+.espaceligne{
+    line-height: 1px;
 }
 
 .bordureNone{
@@ -85,6 +90,13 @@ li
     justify-content: space-between;
 }
 
+h3{
+    font-size: 16px;
+}
+
+p{
+    font-size: 14px;
+}
 /*couleur de la page*/
 .colorbleu{
     color: #0065FC;
@@ -250,8 +262,8 @@ li
 }
 
 /*à voir*/.filtreText:hover{
-    color: white;
     background-color: #0065FC;
+    color: white;
 }/*fin à voir*/
 
 .filtreIcons{
@@ -376,6 +388,7 @@ li
 
 .cubedetailhebergement{
     width: 90%;
+    height: 40%;
 }
 
 /*les plus populaires*/
