@@ -261,10 +261,10 @@ p{
     border-radius: 0 25px 25px 0;
 }
 
-/*à voir*/.filtreText:hover{
-    background-color: #0065FC;
-    color: white;
-}/*fin à voir*/
+.filtreText:hover{
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
 
 .filtreIcons{
     border-radius: 25px;
