@@ -65,7 +65,7 @@ li
 }
 
 .espaceligne{
-    line-height: 1px;
+    line-height: 1px; /*pour que les textes de la description des hébergements aient moins d'espace entre eux*/
 }
 
 .bordureNone{
@@ -91,11 +91,11 @@ li
 }
 
 h3{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 p{
-    font-size: 14px;
+    font-size: 16px;
 }
 /*couleur de la page*/
 .colorbleu{
@@ -263,7 +263,7 @@ p{
 
 .filtreText:hover{
     color: #0065FC;
-    background-color: #DEEBFF;
+    background-color: #DEEBFF; /*effet survol supplémentaire sur le texte des categories de filtre*/
 }
 
 .filtreIcons{
@@ -389,6 +389,7 @@ p{
 .cubedetailhebergement{
     width: 90%;
     height: 40%;
+    padding-left: 10px;
 }
 
 /*les plus populaires*/
@@ -443,6 +444,7 @@ p{
 .cubedetailpopulaire{
     width: 60%;
     padding-left: 5%;
+    margin-top: -40px;
 }
 
 /*activités marseille*/
