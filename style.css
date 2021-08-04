@@ -13,7 +13,7 @@ html{
 }
 
 body {
-    margin: 0;
+    margin: 0em 4em;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
@@ -64,10 +64,6 @@ li
     font-weight: bold; 
 }
 
-.espaceligne{
-    line-height: 1px; /*pour que les textes de la description des hébergements aient moins d'espace entre eux*/
-}
-
 .bordureNone{
     border: none;
 }
@@ -91,11 +87,11 @@ li
 }
 
 h3{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 p{
-    font-size: 16px;
+    font-size: 14px;
 }
 /*couleur de la page*/
 .colorbleu{
@@ -306,7 +302,7 @@ p{
 }
 
 .imghebergement1{
-    background-image: url("./img/img_hebergement_aubergecannebiere.jpg");
+    background-image: url("./img/auberge_cannebiere.jpg");
     width: 100%;
     height: 120px;
     background-size: cover;
@@ -315,7 +311,7 @@ p{
 }
 
 .imghebergement2{
-    background-image: url("./img/img_hebergement_hotelduport.jpg");
+    background-image: url("./img/hotel_du_port.jpg");
     width: 100%;
     height: 120px;
     background-size: cover;
@@ -324,7 +320,7 @@ p{
 }
 
 .imghebergement3{
-    background-image: url("./img/img_hebergement_hotellesmouettes.jpg");
+    background-image: url("./img/hotel_les_mouettes.jpg");
     width: 100%;
     height: 120px;
     background-size: cover;
@@ -333,7 +329,7 @@ p{
 }
 
 .imghebergement4{
-    background-image: url("./img/img_hebergement_hoteldelamer.jpg");
+    background-image: url("./img/hotel_de_la_mer.jpg");
     width: 100%;
     height: 120px;
     background-size: cover;
@@ -342,7 +338,7 @@ p{
 }
 
 .imghebergement5{
-    background-image: url("./img/img_hebergement_aubergepanier.jpg");
+    background-image: url("./img/auberge_panier.jpg");
     width: 100%;
     height: 120px;
     background-size: cover;
@@ -351,7 +347,7 @@ p{
 }
 
 .imghebergement6{
-    background-image: url("./img/img_hebergement_hotelchezamina.jpg");
+    background-image: url("./img/hotel_chez_amina.jpg");
     width: 100%;
     height: 120px;
     background-size: cover;
@@ -392,6 +388,11 @@ p{
     padding-left: 10px;
 }
 
+.no_margin {
+    margin-bottom: 0;
+    margin-top: 0;
+} /*suppression des marges pour les libellés et descriptions des logements à Marseille*/
+
 /*les plus populaires*/
 .blocpopulaire{
     padding-left: 20px;
@@ -399,7 +400,7 @@ p{
 }
 
 .imgpopulaire1{
-    background-image: url("./img/img_hebergement_hotellesoleildumat.jpg");
+    background-image: url("./img/hotel_le_soleil_du_matin.jpg");
     width: 35%;
     height: 160px;
     background-size: cover;
@@ -408,7 +409,7 @@ p{
 }
 
 .imgpopulaire2{
-    background-image: url("./img/img_hebergement_aucoeurdeleau.jpg");
+    background-image: url("./img/au_coeur_de_leau.jpg");
     width: 35%;
     height: 160px;
     background-size: cover;
@@ -417,7 +418,7 @@ p{
 }
 
 .imgpopulaire3{
-    background-image: url("./img/img_hebergement_hoteltoutbleuetblanc.jpg");
+    background-image: url("./img/hotel_tout_bleu_et_blanc.jpg");
     width: 35%;
     height: 160px;
     background-size: cover;
@@ -464,7 +465,7 @@ p{
 }
 
 .imgactivite1{
-    background-image: url("./img/img_activite_vieuxport.jpg");
+    background-image: url("./img/vieux_port.jpg");
     width: 100%;
     height: 530px;
     background-size: cover;
@@ -473,7 +474,7 @@ p{
 }
 
 .imgactivite2{
-    background-image: url("./img/img_activite_fortdepomegues.jpg");
+    background-image: url("./img/fort_de_pomegues.jpg");
     width: 100%;
     height: 250px;
     background-size: cover;
@@ -482,7 +483,7 @@ p{
 }
 
 .imgactivite3{
-    background-image: url("./img/img_activite_iledufrioul.jpg");
+    background-image: url("./img/ile_du_frioul.jpg");
     width: 100%;
     height: 150px;
     background-size: cover;
@@ -491,7 +492,7 @@ p{
 }
 
 .imgactivite4{
-    background-image: url("./img/img_activite_parcnat.jpg");
+    background-image: url("./img/parc_national_des_calanques.jpg");
     width: 100%;
     height: 530px;
     background-size: cover;
@@ -500,7 +501,7 @@ p{
 }
 
 .imgactivite5{
-    background-image: url("./img/img_activite_notredame.jpg");
+    background-image: url("./img/notre_dame_de_la_garde.jpg");
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -509,7 +510,7 @@ p{
 }
 
 .imgactivite6{
-    background-image: url("./img/img_activite_parclongchamp.jpg");
+    background-image: url("./img/parc_longchamp.jpg");
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -554,6 +555,7 @@ p{
 footer {
     padding: 40px 50px 50px;
     background-color: #f2f2f2;
+    margin: 0em -4em;
 }
 
 footer div {
@@ -792,10 +794,7 @@ footer a:hover {
 /* Mobile version */
 
 @media only screen and (max-width: 600px) {
-    /* General */
-    #main {
-        margin: 0;
-    }
+
     /* Footer - Mobile */
     footer {
         flex-direction: column;
