@@ -87,11 +87,11 @@ li
 }
 
 h3{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 p{
-    font-size: 14px;
+    font-size: 17px;
 }
 /*couleur de la page*/
 .colorbleu{
@@ -455,7 +455,7 @@ p{
 }
 
 .marginstar{
-    margin-bottom: 6em;
+    margin-bottom: 4em;
 }
 
 /*activités marseille*/
@@ -663,7 +663,7 @@ footer a:hover {
 
     .cubehebergement{
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .cubedetailhebergement{
@@ -677,7 +677,7 @@ footer a:hover {
 
     .cubeactivite{
         width: 100%;
-        margin-bottom: 50px; /*pour séparer les blocs*/
+        margin-bottom: 20px; /*pour séparer les blocs*/
     }
 
     .blocactivite2356{
@@ -686,7 +686,7 @@ footer a:hover {
     }
 
     .cubeactivite2356{
-        margin-bottom: 50px; /*pour avoir les mêmes marges*/
+        margin-bottom: 20px; /*pour avoir les mêmes marges*/
     }
 
     .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6{
@@ -792,6 +792,7 @@ footer a:hover {
 
     .mobiletitreprgrph{
         padding-left: 5%;
+        margin-top: 0;
     }
 
     .blocactivite{
@@ -800,7 +801,7 @@ footer a:hover {
     }
 
     .marginstar{
-        margin-bottom: 6em;
+        margin-bottom: 4em;
     }
 
     .cubedetailpopulaire { 
