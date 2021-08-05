@@ -226,8 +226,8 @@ p{
 }
 
 .margeFiltre{
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .margeentrettrefiltre{
@@ -275,6 +275,7 @@ p{
 .information{
     display: flex;
     align-items: center;
+    margin-bottom: 2em;
 }
 
 .parentIcon{ /*cercle autour de l'icon*/
@@ -445,7 +446,16 @@ p{
 .cubedetailpopulaire{
     width: 60%;
     padding-left: 5%;
-    margin-top: -40px;
+    margin-top: 0;
+}
+
+.titlepop{
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.marginstar{
+    margin-bottom: 6em;
 }
 
 /*activités marseille*/
@@ -578,9 +588,9 @@ footer a:hover {
         margin-left: 35%;
     }
 
-    .cubedetailhebergement{
+    /*.cubedetailhebergement{
         min-height: 150px;
-    }
+    }*/  /*à enlever car rétrécit la taille des photos en version tablette*/
 
     .sizehebergement{
         min-height: auto;
@@ -623,7 +633,7 @@ footer a:hover {
         flex: none;
         width: 90%;
         margin-right: 0;
-        margin-top: 50px;
+        margin-top: 5px;
         padding: 5%;
     }
 }
@@ -681,6 +691,11 @@ footer a:hover {
 
     .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6{
         height: 200px;
+    }
+
+    .activite {
+        margin-bottom: 5px;
+        margin-top: 5px;
     }
 }
 
@@ -759,7 +774,7 @@ footer a:hover {
     }
 
     .mobilefamilial{
-    margin-right: 0;
+        margin-right: 0;
     }
 
     .filtreText{
@@ -783,6 +798,16 @@ footer a:hover {
         padding: 5%;
         width:90%;
     }
+
+    .marginstar{
+        margin-bottom: 6em;
+    }
+
+    .cubedetailpopulaire { 
+        width: 60%;
+        padding-left: 5%;
+        margin-top: 0;
+    }
 }
 
 /* Tablet version */
@@ -803,9 +828,10 @@ footer a:hover {
     footer {
         flex-direction: column;
         padding: 45px 30px;
+        margin: 0em;
     }
     footer div {
         padding: 0;
-        margin: 0 4em;
+        margin: 0;
     }
 }
