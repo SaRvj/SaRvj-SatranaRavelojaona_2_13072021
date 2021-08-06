@@ -606,6 +606,16 @@ footer a:hover {
     }
 }
 
+@media screen and (max-width:1024px){
+    .sizetitreh{
+        font-size: 16px;
+    }
+
+    .sizesoustitre{
+        font-size: 14.5px;
+    }
+}
+
 @media screen and (max-width:990px){
     .mobilefiltrewrap{ /*éléments des filtres qui s'adaptent à la taille de l'écran*/
         flex-direction: column;
@@ -735,6 +745,7 @@ footer a:hover {
         width: 200px;
         border-top: 2px solid #F2F2F2;
         border-bottom: 2px solid #F2F2F2;
+        font-size: 18px;
     }
 
     .bordureSearch{
