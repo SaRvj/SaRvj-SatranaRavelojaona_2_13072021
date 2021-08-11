@@ -137,7 +137,7 @@ p{
 
 /*couleur de la barre de navigation*/
 .colorLien2{
-    color: black;
+    color: black; /*pour que hébergement et activité soient de couleur noir*/
 }
 
 /*metre trait au dessus de hébergement*/
@@ -152,12 +152,12 @@ p{
 }
 
 .bordureNav:hover{
-    border-top: 1px solid #0065FC;
+    border-top: 1px solid #0065FC; /*c'est sur le parent qu'on travaille*/
     cursor: pointer;
 }
 
 .bordureNav:hover > a {
-    color: #0065FC;
+    color: #0065FC;  /*parent survolé alors l'enfant va changer de couleur*/
     cursor: pointer;
 }
 
@@ -178,7 +178,7 @@ p{
 
 /*header*/
 .desktopnone{
-    display: none;
+    display: none; /*pour que la petite loupe de recherche ne s'affiche pas en mode desktop*/
 }
 
 .bordureSearch{
@@ -213,7 +213,7 @@ p{
     border-radius: 0 10px 10px 0;
 }
 
-.boutonSearch:hover{
+.boutonSearch:hover{ /*changement de couleur quand on le survole*/
     color: #0065FC;
     background-color: #DEEBFF;
 }
@@ -369,7 +369,7 @@ p{
     box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
-.cubehebergement:hover{
+.cubehebergement:hover{ /*animation des cartes au survol*/
     cursor: pointer;
     transform: scale(1.02);
 }
@@ -537,12 +537,12 @@ p{
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
-.cubeactivite:hover{
+.cubeactivite:hover{ /*animation des cartes au survol*/
     cursor: pointer;
     transform: scale(1.02);
 }
 
-.cubeactivite2356:hover{
+.cubeactivite2356:hover{ /*animation des cartes au survol*/
     cursor: pointer;
     transform: scale(1.02);
 }
@@ -567,7 +567,7 @@ footer {
     margin: 0em -4em;
 }
 
-footer div {
+footer div { 
     flex: 1;
 }
 
@@ -592,7 +592,7 @@ footer a:hover {
     }*/  /*à enlever car rétrécit la taille des photos en version tablette*/
 
     .sizehebergement{
-        min-height: auto;
+        min-height: auto; 
         padding: 20px;
     }
 
@@ -732,7 +732,7 @@ footer a:hover {
         height: auto;
     }
 
-    .sizeLienmobile:hover{
+    .sizeLienmobile:hover{  /*barre en bas de hébergement et activité quand on survole*/
         border-top: 0;
         border-bottom: 5px solid #0065FC;
     }
@@ -814,7 +814,7 @@ footer a:hover {
     }
 
     .marginstar{
-        margin-bottom: 4em;
+        margin-bottom: 4em; /*espace entre légende heb les plus populaires et les étoiles*/
     }
 
     .cubedetailpopulaire { 
